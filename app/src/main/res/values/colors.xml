@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="appColor">#6528D0</color>
+
+    <color name="colorPrimary">@color/appColor</color>
+    <color name="colorPrimaryDark">@color/appColor</color>
+    <color name="colorAccent">@color/appColor</color>
+    <!--<color name="colorAccent">#FFFFFF</color>-->
+
+    <color name="appTextColor">#3E3E3E</color>
+    <color name="appTextHintColor">#803E3E3E</color>
+    <color name="appTextlightDarkColor">#4A4A4A</color>
+
+    <color name="appButtonTextColor">#FFFFFF</color>
+    <color name="appButtonBackgroundColor">@color/appColor</color>
+
+
+    <color name="bg_color">#f7f7f7</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black_effective">#2a2a2a</color>
+    <color name="shadow">#d0d8dc</color>
+
+
+    <color name="login_user_back_color">#D2E1FC</color>
+
+
+    <color name="colorSettingBorder">#DFDFDF</color>
+    <color name="colorSettingText">#242424</color>
+
+    <color name="colorProductTitle">#606060</color>
+
+
+    <color name="barcodeExistOptions">#3E3E3E</color>
+
+
+
+
+</resources>

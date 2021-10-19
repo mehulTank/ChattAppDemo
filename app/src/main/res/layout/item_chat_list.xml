@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.example.chatappdemo.utils.CommonUtils"/>
+        <variable
+            name="chat"
+            type="com.example.chatappdemo.data.model.ChatModel" />
+    </data>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/llParts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvUser"
+                style="@style/Setting.Section.Title"
+                android:setUserMessage="@{chat}"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_10ssp"
+                tools:text="John Deo" />
+
+
+        </RelativeLayout>
+
+</layout>
